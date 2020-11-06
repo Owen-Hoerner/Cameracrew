@@ -1,7 +1,7 @@
 The program "usbcam.sh" is currently able to stream two cameras at once
 
-In order to add more you will need to find the names of them using the command v4l2-ctl--list-devices with all of the cameras plugged in and find
-the input each camera uses (i.e. /dev/video0)
+In order to add more you will need to find the names of them using the command "v4l2-ctl--list-devices" with all of the cameras plugged in and find
+the path for each camera (i.e. /dev/video0)
 
 Once you have found the path for each camera, copy the line of code for each new camera but change the path and the port it streams to
 
